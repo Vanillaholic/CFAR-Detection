@@ -34,4 +34,4 @@ jobs:
         pytest
     - name: install packages
       run: |
-        conda install cupy arlpy -c conda-forge
+        conda install cupy arlpy scipy -c conda-forge
